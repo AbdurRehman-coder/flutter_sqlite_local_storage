@@ -23,7 +23,8 @@ class MyApp extends StatelessWidget {
         ),
       ),
       home: NotesPage(),
-      /// testing git credential caching
+      /// testing git credential caching, after running
+      /// git config credential.helper 'cache --timeout = 7776000
     );
   }
 }
