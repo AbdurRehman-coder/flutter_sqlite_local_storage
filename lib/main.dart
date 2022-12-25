@@ -23,6 +23,7 @@ class MyApp extends StatelessWidget {
         ),
       ),
       home: NotesPage(),
+      /// testing git credential caching
     );
   }
 }
